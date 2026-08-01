@@ -80,7 +80,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
 ## 4. OpenAI API Key 설정
 
 프로젝트 루트에 `.env` 파일을 생성한 뒤 아래 내용을 입력합니다.
@@ -88,6 +87,15 @@ pip install -r requirements.txt
 ```text
 OPENAI_API_KEY=YOUR_API_KEY
 ```
+
+---
+
+## 5. 프로그램 실행
+
+```bash
+streamlit run src/main.py
+```
+
 ---
 
 ## 📷 실행 화면
